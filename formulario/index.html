@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./Restaurante/img/mono.jpg" type="x-icon">
+        <meta name="author" content="Alejandro">
+        <meta name="keywords" content="Formulario inscripcion">
+        <meta name="description" content="Formularios">
+    <title>Formulario</title>
+    </head>
+    <body>
+        <header><h1>Formularios de inscripción</h1></header>
+        <main>
+            <h2>HOJA DE INSTRIPCIÓN</h2>
+            <h3>CICLOS FORMATIVOS DE GRADO SUPERIOR</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre1">Nombre:</label>
+                    <input type="text" id="apellidos" name="apellidos">
+
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos">
+
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni">
+
+                    <br>
+
+                    <label for="localidad">Localidad de Nacimiento:</label>
+                    <input type="text" id="localidad" name="localidad">
+
+                    <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="provincia">
+                        <option value="huelva">Huelva</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="cadiz">Cádiz</option>
+                        <option value="granada">Granada</option>
+                        <option value="jaen">Jaén</option>
+                        <option value="almeria">Almería</option>
+                    </select>
+
+                    <label for="fecha1">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha1" name="fecha">
+
+                    <br>
+
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" name="direccion" id="direccion">
+
+                    <br>
+
+                    <label for="cp">Codigo Postal:</label>
+                    <input type="text" name="cp" id="cp">
+                </fieldset>
+                <fieldset>
+                    <legend>Forma de Acceso</legend>
+
+                    <input type="radio" name="acceso" id="directo" value="directo">
+                    <label for="directo">Directo</label>
+                    
+                    <br>
+
+                    <input type="radio" name="acceso" id="bachillerato" value="bachillerato">
+                    <label for="bachillerato">Bachillerato Log Modalidad</label>
+                    <input type="text" name="modalidad">
+
+                    <br>
+
+                    <input type="radio" name="acceso" id="experimental" value="experimental">
+                    <label for="experimental">Experimental</label>
+                    
+                    <br>
+
+                    <input type="radio" name="acceso" id="cou" value="cou">
+                    <label for="cou">COU Opción</label>
+                    <input type="text" name="opcion">
+
+                    <br>
+
+                    <input type="radio" name="acceso" id="otros" value="otros">
+                    <label for="otros">Otros (especifique)</label>
+                    <input type="text" name="otros">
+
+                    <br>
+
+                    <input type="radio" name="acceso" id="fp2" value="fp2">
+                    <label for="fp2">FP2</label>
+
+                    <br>
+
+                    <input type="radio" name="acceso" id="prueba" value="prueba">
+                    <label for="prueba">Prueba</label>
+                    <input type="text" name="prueba">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Documentos adjuntos</legend>
+
+                    <input type="checkbox" name="fotocopia" id="fotocopia">
+                    <label for="fotocopia">Fotocopia DNI</label>
+
+                    <input type="checkbox" name="certificado" id="certificado">
+                    <label for="certificado">Certificado Académico</label>
+
+                    <br>
+
+                    <input type="checkbox" name="documentos" id="documentos">
+                    <label for="documentos">Otros documentos (especifique) </label>
+
+                    <input type="text" name="otros_documentos">
+                </fieldset>
+                </form>
+                <br>
+                <h3>INSCRIPCIÓN AL CLUB</h3>
+                <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos personales:</legend>
+
+                    <label for="nombre2">Nombre:</label>
+                    <input type="text" name="nombre2" id="nomre">
+
+                    <br>
+
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" name="domicilio" id="domicilio" placeholder="calle, número, localidad" size="45">
+
+                    <br>
+
+                    <label for="pais">País de origen:</label>
+                    <select name="pais" id="pais">
+                        <option value="spain">España</option>
+                        <option value="german">Alemanía</option>
+                        <option value="french">Francia</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="england">Inglaterra</option>
+                    </select>
+
+                    <br>
+
+                    <label for="fecha2">Fecha de nacimiento:</label>
+                    <input type="date" name="fecha" id="fecha2">
+
+                    <br>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" name="email" id="email">
+
+                    <br>
+
+                    <label for="telefono">Teléfono: </label>
+                    <input type="tel" name="telefono" id="telefono">
+
+                    <br>
+
+                    <label>Estado civil:</label>
+
+                    <input type="radio" name="estado_civil" id="soltero" value="soltero">
+                    <label for="soltero">Soltero/a</label>
+
+                    <input type="radio" name="casado" id="casado" value="casado">
+                    <label for="casado">Casado/a</label>
+
+                    <input type="radio" name="separado" id="separado" value="separado">
+                    <label for="separado">Separado/a</label>
+
+                    <input type="radio" name="viudo" id="viudo" value="viudo">
+                    <label for="viudo">Viudo/a</label>
+
+                    <br>
+
+                    <label>Sexo:</label>
+
+                    <input type="radio" id="hombre" name="hombre">
+                    <label for="hombre">Hombre</label>
+
+                    <input type="radio" name="mujer" id="mujer">
+                    <label for="mujer">Mujer</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Otra información de interés</legend>
+
+                    <label for="componentes">Seleccione los componentes electrónicos con los que habitualmente trabajas</label>
+
+                    <select name="componentes" id="componentes" size="4" multiple>
+                        <option value="movil">Móvil</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="ordenador">Ordenador</option>
+                        <option value="ebook">Ebook</option>
+                    </select>
+
+                    <br>
+
+                <p>Seleccione sus actividades favoritas: </p>
+
+                <input type="checkbox" name="actividades" id="deporte" value="deporte">
+                <label for="deporte">Hacer deporte</label>
+
+                <input type="checkbox" name="actividades" id="amigos" value="amigos">
+                <label for="amigos">Salir con los amigos</label>
+
+                <input type="checkbox" name="actividades" id="series" value="series">
+                <label for="series">Ver series / peliculas</label>
+
+                <br>
+
+                <input type="checkbox" name="actividades" id="sederismo" value="sederismo">
+                <label for="sederismo">Realizar rutas de sederismo</label>
+
+                <input type="chekbox" name="actividades" id="musica" value="musica">
+                <label for="musica">Escuchar música</label>
+
+                <br>
+
+                <label for="motivo">Explique brevemente el motivo por el que desea ingresar en nuestro club: </label>
+
+                <br>
+
+                <textarea id="motivo" name="motivo" rows="4" cols="65"></textarea>
+
+                    <br>
+                
+                <label for="pelicula">Escribe el nombre de tu peli favorita: </label>
+                <input type="text" name="pelicula" id="pelicula">
+                </fieldset>
+                <button type="submit">ENVIAR</button>
+            </form>
+
+        </main>
+        <footer>
+            <a href="/index.html">Volver al principio</a>
+            <br>
+            aortgom701@g.educaand.es
+        </footer>
+    </body>
+</html>
